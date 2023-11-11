@@ -52,5 +52,7 @@ def get_musicList(url):
             songList.append(p.text)
 
     # 写入文件
-    write_to_file(songList, singerList)
+    # write_to_file(songList, singerList)
+    for song, singer in zip(songList, singerList):
+        print(song + "-" + singer)
     print("共写入了" + str(len(songList)) + "首歌曲")
