@@ -31,7 +31,7 @@ jobs:
       run: pip install -r requirements.txt
       
     - run: |
-        python main.py --url $url
+        python main.py --url ${{ inputs.url }}
       env:
         url: ${{ inputs.url }}
         
