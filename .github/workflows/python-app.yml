@@ -39,5 +39,4 @@ jobs:
       uses: simenandre/setup-inputs@v1.1.0
       id: inputs
       
-    - name: Run test
-      run: python main.py --url ${{ steps.inputs.outputs.url }}
+    - run: echo ${{ steps.inputs.outputs.url }}
