@@ -36,4 +36,8 @@ jobs:
       uses: simenandre/setup-inputs@v1.1.0
       id: inputs
       
-    - run: echo ${{ steps.inputs.outputs.url }}
+    - run: |
+        echo "url:$url"
+      env:
+        url: ${{ inputs.url }}
+        
