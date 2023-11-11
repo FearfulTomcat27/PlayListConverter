@@ -32,4 +32,4 @@ jobs:
     - name: Install requirements
       run: pip install -r requirements.txt
     - name: Run test
-      run: python main.py --url ${{inputs.url}} 
+      run: python main.py --url ${{ inputs.url }}
