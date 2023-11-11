@@ -9,6 +9,7 @@ on:
       url:
         description: 'insert something to consume'
         required: true
+        type: string
         default: 'https://qishui.douyin.com/s/iRYawDwb/'
         
   push:
