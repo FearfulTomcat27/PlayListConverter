@@ -35,6 +35,10 @@ python main.py -u {url}
 python main.py
 ```
 
+```
+python main.py
+```
+
 **Pycharm:**
 
 运行``` main.py``` 并填写url
